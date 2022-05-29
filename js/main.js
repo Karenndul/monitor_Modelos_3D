@@ -5,7 +5,7 @@ $('document').ready(()=>{
     setInterval(() => {  
         $.ajax({
             type: "GET",
-            url: "https://voicebackend.000webhostapp.com/backend",
+            url: "https://voicebackend.000webhostapp.com/backend/show.php",
             success: function(res){
                 let valor = JSON.parse(res);
                 if(valor.hasOwnProperty('data')){
@@ -37,7 +37,7 @@ $('document').ready(()=>{
             "ordering":false,
             "ajax":{
                 "method":"POST",
-                "url":"https://voicebackend.000webhostapp.com/backend",
+                "url":"https://voicebackend.000webhostapp.com/backend/show.php",
                 "error":function(){
                     console.log("falla");
                 }
