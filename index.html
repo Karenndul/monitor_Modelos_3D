@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--libreria datatable-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.js"></script>
+    <!--librería bootstrap-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Examen T3</title>
+</head>
+<body style="background-color:#c9c0c038;">
+    <!-- As a heading -->
+    <nav class="navbar" style="background-color: #07436b81;">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="color: rgb(255, 255, 255); font-size: xx-large;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-back" viewBox="0 0 16 16">
+                    <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/>
+                </svg>
+                INTERACCIÓN HUMANO - COMPUTADORA
+            </a>
+        </div>
+    </nav>
+    <section>
+        <div class ="container-fluid mt-3">
+            <div class="row">
+                <div class="col order-last"></div>
+                <div class="col">
+                    <h1 class="mx-4" style="color: rgb(0, 0, 0);">MODELOS 3D</h1>
+                    <p id="compatible"></p>
+                </div><div class="col order-first">
+                </div>                           
+            </div>            
+        </div>
+    </section>
+
+<!--TABLA MOSTRAR COORDENADAS DE MODELO-->
+    <div class="container">
+    <table id="tcoordenadas" class="table table-hover">
+        <thead>
+          <tr>
+            <th>Mouse / Teclado</th>
+            <th>x</th>
+            <th>y</th>
+            <th>z</th>            
+            <th>x</th>
+            <th>y</th>
+            <th>z</th>
+          </tr>
+        </thead>
+    </table>
+    </div>         
+<!-- FIN DE TABLA MOSTRAR COORDENADAS DE MODELO-->
+
+<!--footer-->
+<footer class="footer mt-5 fixed-bottom">
+    <div class="text-center p-4" style="background-color:#07436b81;">
+        © 2021 Copyright: Jaén Galván Uriel | Duran Lugo Karen
+    </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.min.js"
+        integrity="sha512-suUtSPkqYmFd5Ls30Nz6bjDX+TCcfEzhFfqjijfdggsaFZoylvTj+2odBzshs0TCwYrYZhQeCgHgJEkncb2YVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
